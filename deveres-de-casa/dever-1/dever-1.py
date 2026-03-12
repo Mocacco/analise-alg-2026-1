@@ -44,5 +44,11 @@ e assim por diante, até atingir o caso base onde n = 1 ou n = 0.Isso significa 
 função será invocada exatamente n vezes (ou n+1 vezes se contar o zero). Como o número de operações dentro de cada chamada 
 da função (uma verificação de condição if/else, uma multiplicação e um retorno) é constante e não depende de n — ou seja,
 eva um tempo O(1) —, o tempo total de execução é o número de chamadas multiplicado pelo tempo de cada chamada: n x O(1) = 
-O(n).Portanto, o tempo de execução cresce de forma diretamente proporcional ao tamanho da entrada $n$.
+O(n).Portanto, o tempo de execução cresce de forma diretamente proporcional ao tamanho da entrada n.
+
+tempos de execução:
+Tempo para n=  10: 0.00000540 segundos
+Tempo para n= 100: 0.00001830 segundos
+Tempo para n= 500: 0.00015700 segundos
+Tempo para n=1000: 0.00038220 segundos
 """
